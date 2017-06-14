@@ -111,7 +111,7 @@ The listing page does not show all accessible data points: that is, some data po
         # In descending order (newest to oldest) of the latest action date
         http://ocd.datamade.us/bills/?sort=-actions__date&from_organization__name=New%20York%20City%20Council&page=2
 
-Djano queries
+Django queries
 ~~~~~~~~~~~~~
 
 The OCD API also responds to `Django URL filters <https://github.com/miki725/django-url-filter>`_.
